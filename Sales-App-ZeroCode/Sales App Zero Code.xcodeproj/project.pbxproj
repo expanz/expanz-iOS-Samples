@@ -14,14 +14,14 @@
 		0E0E47EE147BBC0D00AFC76E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E47D9147BBC0D00AFC76E /* MainWindow.xib */; };
 		0E0E47EF147BBC0D00AFC76E /* Sales.Customer.Browse.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E47DA147BBC0D00AFC76E /* Sales.Customer.Browse.xib */; };
 		0E0E47F0147BBC0D00AFC76E /* Sales.Customer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E47DB147BBC0D00AFC76E /* Sales.Customer.xib */; };
-		0E0E47F1147BBC0D00AFC76E /* TableCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E47DC147BBC0D00AFC76E /* TableCell2.xib */; };
+		0E0E47F1147BBC0D00AFC76E /* GridDataTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E47DC147BBC0D00AFC76E /* GridDataTableCell.xib */; };
 		0E0E47F2147BBC0D00AFC76E /* production_environment.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E47DE147BBC0D00AFC76E /* production_environment.xml */; };
 		0E0E47F3147BBC0D00AFC76E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E47E0147BBC0D00AFC76E /* InfoPlist.strings */; };
 		0E0E47F5147BBC0D00AFC76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E47E4147BBC0D00AFC76E /* main.m */; };
-		0E0E47F6147BBC0D00AFC76E /* Browse_Sales_Customer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E47E7147BBC0D00AFC76E /* Browse_Sales_Customer_ViewController.m */; };
+		0E0E47F6147BBC0D00AFC76E /* Sales_Customer_Browse_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E47E7147BBC0D00AFC76E /* Sales_Customer_Browse_ViewController.m */; };
 		0E0E47F7147BBC0D00AFC76E /* Sales_Customer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E47E9147BBC0D00AFC76E /* Sales_Customer_ViewController.m */; };
-		0E0E47FA147BBCB700AFC76E /* expanz-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0E47F8147BBCB600AFC76E /* expanz-iOS-SDK.framework */; };
 		0E0E47FB147BBCB700AFC76E /* Objection-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0E47F9147BBCB600AFC76E /* Objection-iOS.framework */; };
+		6B73AB091495AABE0075E291 /* ExpanzIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B73AB081495AABE0075E291 /* ExpanzIOS.framework */; };
 		6BCF189B1476471000B068B9 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		6BF6F68F1473C3EF00B651AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6F68E1473C3EF00B651AF /* UIKit.framework */; };
 		6BF6F6911473C3EF00B651AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF6F6901473C3EF00B651AF /* Foundation.framework */; };
@@ -43,18 +43,18 @@
 		0E0E47D9147BBC0D00AFC76E /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		0E0E47DA147BBC0D00AFC76E /* Sales.Customer.Browse.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sales.Customer.Browse.xib; sourceTree = "<group>"; };
 		0E0E47DB147BBC0D00AFC76E /* Sales.Customer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sales.Customer.xib; sourceTree = "<group>"; };
-		0E0E47DC147BBC0D00AFC76E /* TableCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCell2.xib; sourceTree = "<group>"; };
+		0E0E47DC147BBC0D00AFC76E /* GridDataTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridDataTableCell.xib; sourceTree = "<group>"; };
 		0E0E47DE147BBC0D00AFC76E /* production_environment.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = production_environment.xml; sourceTree = "<group>"; };
 		0E0E47E1147BBC0D00AFC76E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		0E0E47E2147BBC0D00AFC76E /* iOS-SDK-Examples-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS-SDK-Examples-Info.plist"; sourceTree = "<group>"; };
 		0E0E47E3147BBC0D00AFC76E /* iOS-SDK-Examples-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS-SDK-Examples-Prefix.pch"; sourceTree = "<group>"; };
 		0E0E47E4147BBC0D00AFC76E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0E0E47E6147BBC0D00AFC76E /* Browse_Sales_Customer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Browse_Sales_Customer_ViewController.h; sourceTree = "<group>"; };
-		0E0E47E7147BBC0D00AFC76E /* Browse_Sales_Customer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Browse_Sales_Customer_ViewController.m; sourceTree = "<group>"; };
+		0E0E47E6147BBC0D00AFC76E /* Sales_Customer_Browse_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sales_Customer_Browse_ViewController.h; sourceTree = "<group>"; };
+		0E0E47E7147BBC0D00AFC76E /* Sales_Customer_Browse_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sales_Customer_Browse_ViewController.m; sourceTree = "<group>"; };
 		0E0E47E8147BBC0D00AFC76E /* Sales_Customer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sales_Customer_ViewController.h; sourceTree = "<group>"; };
 		0E0E47E9147BBC0D00AFC76E /* Sales_Customer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sales_Customer_ViewController.m; sourceTree = "<group>"; };
-		0E0E47F8147BBCB600AFC76E /* expanz-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "expanz-iOS-SDK.framework"; path = "../Dependencies/Frameworks/expanz-iOS-SDK.framework"; sourceTree = "<group>"; };
 		0E0E47F9147BBCB600AFC76E /* Objection-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Objection-iOS.framework"; path = "../Dependencies/Frameworks/Objection-iOS.framework"; sourceTree = "<group>"; };
+		6B73AB081495AABE0075E291 /* ExpanzIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExpanzIOS.framework; path = ../Dependencies/Frameworks/ExpanzIOS.framework; sourceTree = "<group>"; };
 		6BF6F68A1473C3EF00B651AF /* SalesApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF6F68E1473C3EF00B651AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6BF6F6901473C3EF00B651AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,8 +83,8 @@
 				6BF6F6AC1473C5CB00B651AF /* QuartzCore.framework in Frameworks */,
 				6BF6F68F1473C3EF00B651AF /* UIKit.framework in Frameworks */,
 				6BF6F6911473C3EF00B651AF /* Foundation.framework in Frameworks */,
-				0E0E47FA147BBCB700AFC76E /* expanz-iOS-SDK.framework in Frameworks */,
 				0E0E47FB147BBCB700AFC76E /* Objection-iOS.framework in Frameworks */,
+				6B73AB091495AABE0075E291 /* ExpanzIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 				0E0E47D9147BBC0D00AFC76E /* MainWindow.xib */,
 				0E0E47DA147BBC0D00AFC76E /* Sales.Customer.Browse.xib */,
 				0E0E47DB147BBC0D00AFC76E /* Sales.Customer.xib */,
-				0E0E47DC147BBC0D00AFC76E /* TableCell2.xib */,
+				0E0E47DC147BBC0D00AFC76E /* GridDataTableCell.xib */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -125,8 +125,8 @@
 		0E0E47E5147BBC0D00AFC76E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0E0E47E6147BBC0D00AFC76E /* Browse_Sales_Customer_ViewController.h */,
-				0E0E47E7147BBC0D00AFC76E /* Browse_Sales_Customer_ViewController.m */,
+				0E0E47E6147BBC0D00AFC76E /* Sales_Customer_Browse_ViewController.h */,
+				0E0E47E7147BBC0D00AFC76E /* Sales_Customer_Browse_ViewController.m */,
 				0E0E47E8147BBC0D00AFC76E /* Sales_Customer_ViewController.h */,
 				0E0E47E9147BBC0D00AFC76E /* Sales_Customer_ViewController.m */,
 			);
@@ -159,7 +159,7 @@
 		6BF6F68D1473C3EF00B651AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E0E47F8147BBCB600AFC76E /* expanz-iOS-SDK.framework */,
+				6B73AB081495AABE0075E291 /* ExpanzIOS.framework */,
 				0E0E47F9147BBCB600AFC76E /* Objection-iOS.framework */,
 				6BF6F6B71473C63300B651AF /* libz.dylib */,
 				6BF6F6B51473C62C00B651AF /* libsqlite3.dylib */,
@@ -233,7 +233,7 @@
 				0E0E47EE147BBC0D00AFC76E /* MainWindow.xib in Resources */,
 				0E0E47EF147BBC0D00AFC76E /* Sales.Customer.Browse.xib in Resources */,
 				0E0E47F0147BBC0D00AFC76E /* Sales.Customer.xib in Resources */,
-				0E0E47F1147BBC0D00AFC76E /* TableCell2.xib in Resources */,
+				0E0E47F1147BBC0D00AFC76E /* GridDataTableCell.xib in Resources */,
 				0E0E47F2147BBC0D00AFC76E /* production_environment.xml in Resources */,
 				0E0E47F3147BBC0D00AFC76E /* InfoPlist.strings in Resources */,
 			);
@@ -248,7 +248,7 @@
 			files = (
 				6BCF189B1476471000B068B9 /* (null) in Sources */,
 				0E0E47F5147BBC0D00AFC76E /* main.m in Sources */,
-				0E0E47F6147BBC0D00AFC76E /* Browse_Sales_Customer_ViewController.m in Sources */,
+				0E0E47F6147BBC0D00AFC76E /* Sales_Customer_Browse_ViewController.m in Sources */,
 				0E0E47F7147BBC0D00AFC76E /* Sales_Customer_ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

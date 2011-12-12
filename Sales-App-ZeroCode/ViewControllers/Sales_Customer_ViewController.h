@@ -11,7 +11,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import <expanz-iOS-SDK/expanz_ui_ActivityInstanceViewController.h>
+#import <ExpanzIOS/expanz_ui_ActivityInstanceViewController.h>
 
 
 @interface Sales_Customer_ViewController : expanz_ui_ActivityInstanceViewController
